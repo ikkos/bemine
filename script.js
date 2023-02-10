@@ -19,5 +19,5 @@ document.getElementById("reveal-button").addEventListener("click", function(){
   });
 
   document.getElementById("yes-button").addEventListener("click", function(){
-    alert("i love you forever and always");
+    alert("i love you forever and always, you are my world. i am never going to leave you. you are mine and i am yours. the one person i want to spend the rest of my life with");
   });
