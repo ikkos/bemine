@@ -75,16 +75,28 @@ p2 {
   display: none;
 }
 
-#reveal-button:active + #rose + #text + #no-button + #yes-button {
+#reveal-button:active + #rose + #text + #no-button + #yes-button + #love-button  {
   display: block;
   display: contents;
 }
 
 #reveal-button {
   align-self: center;
+  display: inline-block;
+}
+
+#love-button {
+  display: block;
+  align-self: center;
+  
 }
 
 #no-button:active {
   display: block;
   display: contents;
+}
+
+#yes-button + #no-button{
+  align-self: center;
+  display: inline-block;
 }
